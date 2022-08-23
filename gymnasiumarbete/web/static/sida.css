@@ -1,0 +1,37 @@
+body{
+    background-color: #24252A;
+}
+.ruta{
+    background-color: darkslategray;
+    width: 309px;
+    height: 400px;
+    margin:auto
+}
+.input {
+    width: 300px;
+    height: 30px;
+    margin-top: 50%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.input1 {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 3px;
+    
+
+    
+}
+.knapp{
+    border-style: solid;
+    border-color: white;
+    width: 50%;
+    height: 10%;
+    margin-left: 75px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 3px;
+}

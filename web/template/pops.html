@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="upload.css">
+    <script type="module" src="pop.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>ifjkweio</h1>
+    <header class="huvud">
+        <ul>
+            
+            <li style="float: right;" class="icon"><img src="dots.png" alt=""></li>
+            <li style="float: right;" class="icon"><img src="comment.png" alt=""></li>
+            <li style="float: right;" class="icon"><img src="bell.png" alt=""></li>
+            <li style="float:right"><a class="active" href="profil">{{user}}</a></li>
+            <li style="float: right;"><a class="active" href="upload">Upload</a></li>
+            <input type="text" placeholder="" name="">
+            <li style="float: left;" class="logo"><img src="logo.png" alt=""></li>
+            <li style="float: left;"><a class="active" href="hem">Home</a></li>
+            <li style="float: left;"><a class="active" href="">Stream</a></li>
+            <li style="float: left; " ><a class="active" href="album">Library</a></li>
+        </ul>
+        
+    </header>
+    
+
+    <button id="modal1" class="modal1">open model</button>
+    <div class="modal" id="modal" >
+       
+        <div class="modal-header">   
+            <div class="titel">Upload music</div>
+            <button id="modal2"  class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="">genre</label>
+        <select name="" id="" class="genre">
+            <option value="">Rock</option>
+            <option value="">Pop music</option>
+            <option value="">country</option>
+            <option value="">remix</option>
+            <option value="">rap</option>
+            <option value="">K-pop</option>
+            <option value="">Classical</option>
+            <option value="">Jazz</option>
+            <option value="">Dans band musik</option>
+            <option value="">Hård rock</option>
+            <option value="">Techno Music</option>
+            <option value="">blues</option>
+        </select>
+        <br>
+        <label for=""> Title name</label>
+        <input type="text" name="title">
+        <input type="text" name="title1">
+        
+        
+ 
+        <br>
+       
+        <input type="checkbox">
+        <label for="html">Private</label>
+        <input type="checkbox">
+        <label for="html">Public</label><br>
+        <br>
+        <p><input type="file" name="file"></p>
+        <p><input type="file" name="thumb"></p>
+        <p><input type="submit" value="knapp"></p>
+       
+        </form>
+        </div>
+    </div>
+
+<div id="overlay"></div>
+
+<script type="text/javascript" src="pop.js"></script>
+</body>
+</html>
